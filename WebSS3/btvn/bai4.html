@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai4</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Tên của bạn..."></td>
+            </tr>
+
+            <tr>
+                <td><label for="birthdate">Ngày sinh:</label></td>
+                <td><input type="date" id="birthdate" name="birthdate"></td>
+            </tr>
+
+            <tr>
+                <td><label>Giới tính:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="Nam"> Nam
+                    <input type="radio" name="gender" value="Nữ"> Nữ
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="cmmd">Số căn cước công dân:</label></td>
+                <td><input type="text" id="cmmd" name="cmmd"></td>
+            </tr>
+
+            <tr>
+                <td><label for="date">Ngày cấp:</label></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+
+            <tr>
+                <td><label for="where">Nơi cấp:</label></td>
+                <td><input type="text" id="where" name="where"></td>
+            </tr>
+
+            <tr>
+                <td><label for="phonenumber">Số điện thoại:</label></td>
+                <td><input type="tel" id="phonenumber" name="phonenumber"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="peraddress">Địa chỉ thường trú:</label></td>
+                <td><textarea id="peraddress" name="peraddress" rows="2" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="temaddress">Địa chỉ tạm trú:</label></td>
+                <td><textarea id="temaddress" name="temaddress" rows="2" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label>Loại căn cước công dân:</label></td>
+                <td>
+                    <input type="radio" name="typecmmd" value="new"> Căn cước công dân mới
+                    <input type="radio" name="typecmmd" value="old"> Căn cước công dân cũ
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="folk">Dân tộc:</label></td>
+                <td><input type="text" id="folk" name="folk"></td>
+            </tr>
+
+            <tr>
+                <td><label for="religion">Tôn giáo:</label></td>
+                <td><input type="text" id="religion" name="religion"></td>
+            </tr>
+
+            <tr>
+                <td><label for="nation">Quốc tịch:</label></td>
+                <td><input type="text" id="nation" name="nation" value="Việt Nam"></td>
+            </tr>
+
+            <tr>
+                <td><label for="parentname">Họ tên cha/me:</label></td>
+                <td><input type="text" id="parentname" name="parentname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="parentcmmd">So CMND/CCCD của cha/me:</label></td>
+                <td><input type="text" id="parentcmmd" name="parentcmmd"></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">Tỉnh/Thành phố:</label></td>
+                <td>
+                    <select id="city" name="city">
+                        <option>Chọn Tỉnh/Thành Phố</option>
+                        <option value="hn">ha noi</option>
+                        <option value="th">thanh hoa</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <td><button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
